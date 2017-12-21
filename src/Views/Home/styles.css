@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
-
-.body {
-    height: 100%;
-    padding: 30px;
-    background-color: rgba(221, 221, 221, 0.205);
+.centered {
+    min-width: 710px;
+    text-align: center;
 }
 
-.heading {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 21pt;;
+.home-link {
+    padding-right: 15px;
+    color: green;
 }
