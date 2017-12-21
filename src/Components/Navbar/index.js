@@ -4,7 +4,19 @@ import './styles.css';
 export default class Navbar extends Component {
 
   clickAbout = () => {
-    alert("Opening About");
+    window.location.href = "/about";
+  }
+  clickEvents = () => {
+    window.location.href = "/events";
+  }
+  clickMembers = () => {
+    window.location.href = "/members";
+  }
+  clickResources = () => {
+    window.location.href = "/resources";
+  }
+  clickContact = () => {
+    window.location.href = "/contact";
   }
 
   render() {
@@ -16,17 +28,17 @@ export default class Navbar extends Component {
                   <a onClick={this.clickAbout}>About</a>
                 </div>
                 <div className="navbar-item">
-                  Events
+                  <a onClick={this.clickEvents}>Events</a>
                 </div>
                 <div className="navbar-item">
-                  Members
+                  <a onClick={this.clickMembers}>Members</a>
                 </div>
                 <div className="navbar-item">
-                  Resources
+                <a onClick={this.clickResources}>Resources</a>
                 </div>
-                {<div className="navbar-item">
-                  Contact
-                </div>}
+                <div className="navbar-item">
+                  <a onClick={this.clickContact}>Contact</a>
+                </div>
             </div>
           </div>
       </div>
