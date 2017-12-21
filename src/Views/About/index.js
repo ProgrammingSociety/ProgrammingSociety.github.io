@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+import { Navbar } from '../../Components';
+import './styles.css';
+
+export default class About extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <div className="body">
+          <div className="heading">
+            About the Society
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
