@@ -9,14 +9,41 @@ export default class About extends Component {
         <Navbar />
         <div className="about-page-body">
           <div className="about-heading">
+            Our Story
+          </div>
+          <div className="about-body">
+            <p>
+            The first mention of the Programming Society dates back to 2015.  
+            </p>
+            <p>
+              Two MA Economics students were sitting in a lecture theatre, together despairing over their lack of understanding of the technology that had been fuelling and shaping the world around  them. They became unhappy in their own bubble and they wished to broaden their horizon by engaging with students from different fields.
+            </p>
+            <p>
+              Not long after, two brave CS knights sensed the misery from far and committed themselves to rescue not only the two poor students but everyone who may have arrived to the same realisation.
+            </p>
+            <p>
+              In 2016/17 the two knights took on their first cohort of 7 brave hearts. Some abandoned the mission and only the strongest and most determined persisted.
+            </p>
+            <p>
+              By July 2017, the achievements of these first heroes were acknowledged by the almighty leader EUSA and the unit gained their official title as the University of Edinburgh Programming Society.
+            </p>
+            <p>
+              Every week for two hours, the two knights and their students rode their pythons and fought against their ignorance. In ten weeks time the students learnt various warrior strategies from tying strings into loops, to negotiating IF conditions and creating machines of various functions. On the last day of their training, they managed to construct their own battlefield of Tic Tac Toe. As the unit grew, it were noticed by a beautiful Amazon who offered her support and many gifts to encourage more and more acts of heroism.
+            </p>
+            <p>
+              Thus, the ProgSoc unit grew to 60 heroes in the first year and continues to welcome all brave hearts throughout the year. 
+            </p>
+          </div>
+          <hr />
+          <div className="about-heading">
             About the Society
           </div>
           <div className="about-body">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non felis eu mi tempus blandit in ultricies ipsum. Mauris tincidunt dapibus suscipit. Integer neque justo, dictum eget imperdiet in, elementum non odio. Pellentesque vel metus id purus sodales pellentesque. Integer vulputate vitae tortor a finibus. Sed condimentum arcu vel varius eleifend. Duis id lorem rutrum, eleifend lacus at, pretium velit. Curabitur nec elit lorem. Nunc pharetra consequat dui, non maximus lacus varius vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+              The University of Edinburgh Programming Society works as a platform connecting students across various disciplines interested in learning to code.
             </p>
             <p>
-              Pellentesque facilisis, ex at pellentesque interdum, libero nulla molestie justo, ut volutpat est enim in ex. Phasellus quis enim volutpat, ullamcorper risus sit amet, porttitor dolor. Aliquam pretium quam luctus tellus malesuada consequat. In ac magna viverra, fermentum ante ac, hendrerit tortor. Donec vel purus dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In vel convallis enim, vitae semper sem. Pellentesque pulvinar nunc ut lacus efficitur, vitae imperdiet diam lobortis. Aenean non facilisis risus. Nam lectus sapien, mattis sit amet mauris at, sodales condimentum odio. Aenean in dui vel risus semper porta. Aliquam eu rhoncus ante. Aenean laoreet auctor erat, at facilisis arcu porta a. Ut eu sapien tortor. Duis urna nisi, tincidunt auctor risus id, vehicula sodales nisi. Maecenas quis vestibulum enim.
+              We meet regularly every week on Thursday afternoon for up to two hours and we learn basics of programming under the friendly guidance of generous computer science students. Since the founding, we have mostly taught Python to beginners but we intend to extend the areas further. We aim to be very flexible at accommodating individual needs and so we always look for more tutors. 
             </p>
           </div>
         </div>

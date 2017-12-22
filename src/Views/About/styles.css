@@ -16,5 +16,7 @@
 
 .about-body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15pt;
+    font-size: 13pt;
+    text-align: justify;
+    text-justify: inter-word;
 }
