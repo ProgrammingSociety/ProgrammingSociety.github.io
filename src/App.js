@@ -21,7 +21,7 @@ class App extends Component {
       case "https://programmingsociety.github.io/members":
         return (<Members />);
       default:
-        return (<div> Error 404: "{url}" not found </div>);
+        return (<div><br /><br /><br /><br /> Error 404: The url: "{url}" was not found </div>);
     }
   }
 }
