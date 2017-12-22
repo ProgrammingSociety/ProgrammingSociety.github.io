@@ -7,9 +7,12 @@ export default class Resources extends Component {
     return (
       <div>
         <Navbar />
-        <div className="body">
-          <div className="heading">
+        <div className="resources-page-body">
+          <div className="resources-heading">
             Society Resources
+          </div>
+          <div className="resources-body">
+            Coming Soon
           </div>
         </div>
       </div>
