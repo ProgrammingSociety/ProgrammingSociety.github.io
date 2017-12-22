@@ -7,9 +7,12 @@ export default class Members extends Component {
     return (
       <div>
         <Navbar />
-        <div className="body">
-          <div className="heading">
+        <div className="members-page-body">
+          <div className="members-heading">
             Society Member Info
+          </div>
+          <div className="members-body">
+            Coming Soon
           </div>
         </div>
       </div>
