@@ -17,7 +17,11 @@
     margin: 15px;
 }
 
-.navbar-item:hover {
+.navbar-link {
+    text-decoration:none;
+    color: black;
+}
+.navbar-link:hover {
     cursor: pointer;
     color: rgb(100, 187, 132);
 }
