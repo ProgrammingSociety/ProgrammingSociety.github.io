@@ -33,11 +33,11 @@ export default class Event extends Component {
   render() {
 
     let dateArr       = this.props.date.split('/');
-    let formattedDate = dateArr[1] + '/' + dateArr[0] + '/' + dateArr[2];
+    let formattedDate = dateArr[1] + '/' + (parseInt(dateArr[0]) + 1) + '/' + dateArr[2];
     let currDate      = new Date();
     let eventDate     = new Date(formattedDate);
     let dateClass     = 'date-middle';
-    if (currDate > eventDate) {
+    if (currDate >= eventDate) {
       dateClass += ' event-finished';
     }
     else {
