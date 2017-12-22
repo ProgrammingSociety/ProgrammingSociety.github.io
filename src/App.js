@@ -8,17 +8,17 @@ class App extends Component {
     document.title = "ProgSoc";
     var url = window.location.href;
     switch (url) {
-      case "http://ProgrammingSociety.github.io/":
+      case "https://programmingsociety.github.io/":
         return (<Home />);
-      case "http://ProgrammingSociety.github.io/about":
+      case "https://programmingsociety.github.io/about":
         return (<About />);
-      case "http://ProgrammingSociety.github.io/events":
+      case "https://programmingsociety.github.io/events":
         return (<Events />);
-      case "http://ProgrammingSociety.github.io/contact":
+      case "https://programmingsociety.github.io/contact":
         return (<Contact />);
-      case "http://ProgrammingSociety.github.io/resources":
+      case "https://programmingsociety.github.io/resources":
         return (<Resources />);
-      case "http://ProgrammingSociety.github.io/members":
+      case "https://programmingsociety.github.io/members":
         return (<Members />);
       default:
         return (<div> Error 404: "{url}" not found </div>);
