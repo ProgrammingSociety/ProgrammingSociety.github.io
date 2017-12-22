@@ -5,6 +5,7 @@ import { Home, About, Events, Contact, Resources, Members } from './Views/';
 
 class App extends Component {
   render() {
+    document.title = "ProgSoc";
     var url = window.location.href;
     switch (url) {
       case "http://ProgrammingSociety.github.io/":
