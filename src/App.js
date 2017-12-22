@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Home, About, Events } from './Views/';
+import { Home, About, Events, Contact, Resources, Members } from './Views/';
 
 
 class App extends Component {
@@ -13,6 +13,12 @@ class App extends Component {
         return (<About />);
       case "http://localhost:3000/events":
         return (<Events />);
+      case "http://localhost:3000/contact":
+        return (<Contact />);
+      case "http://localhost:3000/resources":
+        return (<Resources />);
+      case "http://localhost:3000/members":
+        return (<Members />);
       default:
         return (<div> Error 404: "{url}" not found </div>);
     }
