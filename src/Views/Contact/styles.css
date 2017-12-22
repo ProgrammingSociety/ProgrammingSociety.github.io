@@ -1,13 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
-
-.body {
-    height: 100%;
-    padding: 30px;
-    background-color: rgba(221, 221, 221, 0.205);
+.contact-page-body {
+    height: 100% !important;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.heading {
+.contact-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 21pt;;
+    font-size: 21pt;
+}
+
+.contact-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.email-facebook {
+    float: right;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
 }
