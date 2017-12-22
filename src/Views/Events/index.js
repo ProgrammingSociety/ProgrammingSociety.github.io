@@ -12,8 +12,8 @@ export default class Events extends Component {
             Society Events
           </div>
           <div className="events-body">
-            <Event date="30/12/2017" time="17:30 - 19:00" title="Some Future Event" location="LG.10 - DHT" facebook="http://www.google.com" />          
-            <Event date="30/12/2017" time="17:30 - 19:00" title="Some Future Event" location="LG.10 - DHT" />          
+            {/* <Event date="30/12/2017" time="17:30 - 19:00" title="Some Future Event" location="LG.10 - DHT" facebook="http://www.google.com" />          
+            <Event date="22/12/2017" time="17:30 - 19:00" title="Some Future Event" location="LG.10 - DHT" />           */}
             
             <Event date="30/11/2017" time="17:30 - 19:00" title="Pre-Christmas CMU" location="LG.10 - DHT" facebook="https://www.facebook.com/events/100880230699940/" />
             <Event date="23/11/2017" time="17:30 - 19:00" title="CMU IX - Tic Tac Toe" location="LG.10 - DHT" facebook="https://www.facebook.com/events/1948773472111318/" />
