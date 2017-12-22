@@ -7,9 +7,11 @@ export default class Events extends Component {
     return (
       <div>
         <Navbar />
-        <div className="body">
-          <div className="heading">
+        <div className="events-page-body">
+          <div className="events-heading">
             Society Events
+          </div>
+          <div className="events-body">
           </div>
         </div>
       </div>
