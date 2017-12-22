@@ -7,17 +7,17 @@ class App extends Component {
   render() {
     var url = window.location.href;
     switch (url) {
-      case "http://localhost:3000/":
+      case "http://ProgrammingSociety.github.io/":
         return (<Home />);
-      case "http://localhost:3000/about":
+      case "http://ProgrammingSociety.github.io/about":
         return (<About />);
-      case "http://localhost:3000/events":
+      case "http://ProgrammingSociety.github.io/events":
         return (<Events />);
-      case "http://localhost:3000/contact":
+      case "http://ProgrammingSociety.github.io/contact":
         return (<Contact />);
-      case "http://localhost:3000/resources":
+      case "http://ProgrammingSociety.github.io/resources":
         return (<Resources />);
-      case "http://localhost:3000/members":
+      case "http://ProgrammingSociety.github.io/members":
         return (<Members />);
       default:
         return (<div> Error 404: "{url}" not found </div>);
