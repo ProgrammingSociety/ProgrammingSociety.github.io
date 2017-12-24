@@ -4,24 +4,35 @@ import { Home, About, Events, Contact, Resources, Members } from './Views/';
 
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      route: window.location.hash
+    }
+    window.addEventListener("hashchange", e => {
+      this.setState({route: window.location.hash});
+    });
+  }
+
   render() {
+  
     document.title = "ProgSoc";
-    var url = window.location.href;
-    switch (url) {
-      case "https://programmingsociety.github.io/":
+    switch (this.state.route) {
+      case "":
         return (<Home />);
-      case "https://programmingsociety.github.io/about":
+      case "#about":
         return (<About />);
-      case "https://programmingsociety.github.io/events":
+      case "#events":
         return (<Events />);
-      case "https://programmingsociety.github.io/contact":
+      case "#contact":
         return (<Contact />);
-      case "https://programmingsociety.github.io/resources":
+      case "#resources":
         return (<Resources />);
-      case "https://programmingsociety.github.io/members":
+      case "#members":
         return (<Members />);
       default:
-        return (<div><br /><br /><br /><br /> Error 404: The url: "{url}" was not found </div>);
+        return (<div><br /><br /><br /><br /> Error 404: The route: "{this.state.route}" was not found </div>);
     }
   }
 }

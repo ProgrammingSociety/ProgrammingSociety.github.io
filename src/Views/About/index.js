@@ -46,6 +46,12 @@ export default class About extends Component {
               We meet regularly every week on Thursday afternoon for up to two hours and we learn basics of programming under the friendly guidance of generous computer science students. Since the founding, we have mostly taught Python to beginners but we intend to extend the areas further. We aim to be very flexible at accommodating individual needs and so we always look for more tutors. 
             </p>
           </div>
+          <div className="about-heading">
+            Sponsors/Friends
+          </div>
+          <div className="about-body">
+            Coming Soon
+          </div>
         </div>
       </div>
     );

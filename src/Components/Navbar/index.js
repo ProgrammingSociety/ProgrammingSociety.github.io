@@ -25,19 +25,19 @@ export default class Navbar extends Component {
           <div className="navbar-container">
             <div className="navbar">
                 <div className="navbar-item">
-                  <a className="navbar-link" href="/about">About</a>
+                  <a className="navbar-link" href="#about">About</a>
                 </div>
                 <div className="navbar-item">
-                <a className="navbar-link" href="/events">Events</a>
+                <a className="navbar-link" href="#events">Events</a>
                 </div>
                 <div className="navbar-item">
-                <a className="navbar-link" href="/members">Members</a>
+                <a className="navbar-link" href="#members">Members</a>
                 </div>
                 <div className="navbar-item">
-                <a className="navbar-link" href="/resources">Resources</a>
+                <a className="navbar-link" href="#resources">Resources</a>
                 </div>
                 <div className="navbar-item">
-                <a className="navbar-link" href="/contact">Contact</a>
+                <a className="navbar-link" href="#contact">Contact</a>
                 </div>
             </div>
           </div>
