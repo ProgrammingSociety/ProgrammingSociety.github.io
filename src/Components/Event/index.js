@@ -13,6 +13,18 @@ export default class Event extends Component {
         return 'JAN';
       case '02':
         return 'FEB';
+      case '03':
+        return 'MAR';
+      case '04':
+        return 'APR';
+      case '05':
+        return 'MAY';
+      case '06':
+        return 'JUN';
+      case '07':
+        return 'JUL';
+      case '08':
+        return 'AUG';
       case '09':
         return 'SEP';
       case '10':
