@@ -9,7 +9,7 @@ export default class Contact extends Component {
         <Navbar />
         <div className="contact-page-body">
           <div className="email-facebook">
-            <a href="www.facebook.com/pg/programmingsociety">www.facebook.com/pg/programmingsociety</a>
+            <a href="http://www.facebook.com/pg/programmingsociety">www.facebook.com/pg/programmingsociety</a>
             <br />
             ediprogsoc@gmail.com
           </div>
