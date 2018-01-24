@@ -20,7 +20,7 @@ export default class Contact extends Component {
             <p>
             <strong>President</strong> <br />
             Jennifer Za Nzambi <br />
-            elvira.thea@yahoo.co.uk <br /> <br />
+            s1410497@ed.ac.uk <br /> <br />
 
             <strong>Secretary</strong> <br />
             Kristyna Duongova <br />
