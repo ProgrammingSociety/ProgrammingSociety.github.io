@@ -14,7 +14,15 @@ export default class Events extends Component {
           <div className="events-body">
             {/* <Event date="30/12/2017" time="17:30 - 19:00" title="Some Future Event" location="LG.10 - DHT" facebook="http://www.google.com" />          
             <Event date="22/12/2017" time="17:30 - 19:00" title="Some Future Event" location="LG.10 - DHT" />           */}
-            <Event date="30/11/2017" time="17:00 - 19:00" title="Programming Refreshers' & Refreshment" location="LG.07 - DHT" />
+            <Event date="28/03/2018" time="17:00 - 19:00" title="AGM" location="LG.07 - DHT" />   
+            <Event date="21/03/2018" time="17:00 - 19:00" title="Guest speaker(s)" location="LG.07 - DHT" />   
+            <Event date="14/03/2018" time="17:00 - 19:00" title="ProgSoc Members Team competition for Amazon prizes." location="LG.07 - DHT" />   
+            <Event date="07/03/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
+            <Event date="28/02/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
+            <Event date="14/02/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
+            <Event date="07/02/2018" time="17:00 - 19:00" title="Basic introduction to Machine Learning" location="LG.07 - DHT" />   
+            <Event date="31/01/2018" time="17:00 - 19:00" title="Building a simulation of the Monty Hall Problem" location="LG.07 - DHT" />            
+            <Event date="24/01/2018" time="17:00 - 19:00" title="Programming Refreshers' & Refreshment" location="LG.07 - DHT" />
             <Event date="30/11/2017" time="17:30 - 19:00" title="Pre-Christmas CMU" location="LG.10 - DHT" facebook="https://www.facebook.com/events/100880230699940/" />
             <Event date="23/11/2017" time="17:30 - 19:00" title="CMU IX - Tic Tac Toe" location="LG.10 - DHT" facebook="https://www.facebook.com/events/1948773472111318/" />
             <Event date="16/11/2017" time="17:30 - 19:00" title="CMU VIII - Tic Tac Toe" location="LG.10 - DHT" facebook="https://www.facebook.com/events/1948773472111318/" />
