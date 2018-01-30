@@ -21,7 +21,7 @@ export default class Events extends Component {
             <Event date="28/02/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
             <Event date="14/02/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
             <Event date="07/02/2018" time="17:00 - 19:00" title="Basic introduction to Machine Learning" location="LG.07 - DHT" />   
-            <Event date="31/01/2018" time="17:00 - 19:00" title="Building Probability Simulations" location="LG.07 - DHT" />            
+            <Event date="31/01/2018" time="17:00 - 19:00" title="Building Probability Simulations" location="LG.07 - DHT" facebook="https://www.facebook.com/events/2048758225401279/" />            
             <Event date="24/01/2018" time="17:00 - 19:00" title="Programming Refreshers' & Refreshment" location="LG.07 - DHT" facebook="https://www.facebook.com/events/1650966814989911/" />
             <Event date="30/11/2017" time="17:30 - 19:00" title="Pre-Christmas CMU" location="LG.10 - DHT" facebook="https://www.facebook.com/events/100880230699940/" />
             <Event date="23/11/2017" time="17:30 - 19:00" title="CMU IX - Tic Tac Toe" location="LG.10 - DHT" facebook="https://www.facebook.com/events/1948773472111318/" />
