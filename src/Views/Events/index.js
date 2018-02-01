@@ -17,7 +17,7 @@ export default class Events extends Component {
             <Event date="28/03/2018" time="17:00 - 19:00" title="AGM" location="LG.07 - DHT" />   
             <Event date="21/03/2018" time="17:00 - 19:00" title="Guest speaker(s)" location="LG.07 - DHT" />   
             <Event date="14/03/2018" time="17:00 - 19:00" title="Members Competition for Amazon prizes." location="G.06 - 50 GS" />   
-            <Event date="07/03/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
+            <Event date="07/03/2018" time="17:00 - 19:00" title="Further topics in Machine Learning" location="LG.07 - DHT" />   
             <Event date="28/02/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
             <Event date="14/02/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
             <Event date="07/02/2018" time="17:00 - 19:00" title="Basic introduction to Machine Learning" location="LG.07 - DHT" />   
