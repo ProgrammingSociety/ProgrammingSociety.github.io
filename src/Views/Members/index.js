@@ -18,7 +18,12 @@ export default class Members extends Component {
       
       The following are the members who participated in majority of our sessions and received a ProgSoc T-shirt to commemorate their good work:
       
+      ______This will go to the Events page as a description____
+      24.1. The teams had to complete two coding tasks and then were given 4 minutes to type the entire code on the board from memory. 
+      This last task was to create a code that would take in the day and the month of the year as input and output the season of the year.
+      All contestants were complete beginners at the beginning of the year and managed this task with grace.
       
+      The winners were awarded £5 gift cards from our main sponsor Amazon and they are Jun, Victor and Sagar! Congratulations, guys :)
    
       </div>
     );
