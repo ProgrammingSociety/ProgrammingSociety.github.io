@@ -24,7 +24,8 @@ export default class Members extends Component {
       All contestants were complete beginners at the beginning of the year and managed this task with grace.
       
       The winners were awarded £5 gift cards from our main sponsor Amazon and they are Jun, Victor and Sagar! Congratulations, guys :)
-   
+          </div>
+        </div>
       </div>
     );
   }
