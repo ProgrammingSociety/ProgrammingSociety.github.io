@@ -16,10 +16,10 @@ export default class Events extends Component {
             <Event date="22/12/2017" time="17:30 - 19:00" title="Some Future Event" location="LG.10 - DHT" />           */}
             <Event date="28/03/2018" time="17:00 - 19:00" title="AGM" location="LG.07 - DHT" />   
             <Event date="21/03/2018" time="17:00 - 19:00" title="Guest speaker(s)" location="LG.07 - DHT" />   
-            <Event date="14/03/2018" time="17:00 - 19:00" title="Members Competition for Amazon prizes." location="G.06 - 50 GS" />   
+            <Event date="14/03/2018" time="17:00 - 19:00" title="Members Competition for Amazon prizes." location="G.06 - 50 GS" facebook="https://www.facebook.com/events/537863316570101/" />   
             <Event date="07/03/2018" time="17:00 - 19:00" title="Further topics in Machine Learning" location="LG.07 - DHT" facebook="https://www.facebook.com/events/325138664670125/" />   
-            <Event date="28/02/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
-            <Event date="14/02/2018" time="17:00 - 19:00" title="CMU - TBD" location="LG.07 - DHT" />   
+            <Event date="28/02/2018" time="17:00 - 19:00" title="Simulating the market economy" location="LG.07 - DHT" facebook="https://www.facebook.com/events/989906057835170/" />   
+            <Event date="14/02/2018" time="17:00 - 19:00" title="Walking through the last week's ML challenge together" location="LG.07 - DHT" facebook="https://www.facebook.com/events/165996650851414/"/>   
             <Event date="07/02/2018" time="17:00 - 19:00" title="Basic introduction to Machine Learning" location="LG.07 - DHT" facebook="https://www.facebook.com/events/164065357551944/" />   
             <Event date="31/01/2018" time="17:00 - 19:00" title="Building Probability Simulations" location="LG.07 - DHT" facebook="https://www.facebook.com/events/2048758225401279/" />            
             <Event date="24/01/2018" time="17:00 - 19:00" title="Programming Refreshers' & Refreshment" location="LG.07 - DHT" facebook="https://www.facebook.com/events/1650966814989911/" />
